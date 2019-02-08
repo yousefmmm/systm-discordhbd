@@ -227,7 +227,7 @@ client.on("message", message => {
  if (message.content === "-invite") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2017 لــبوت')
+      .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')
       .addField('شكرا لك لاستخدامك ل بروميوم بوت', `https://discordapp.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=350470102803546115`)
   message.author.send({embed});
 
@@ -272,7 +272,7 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2017 لــبوت')  
-      .addField('سيرفر الدعم الفني', `  https://discord.gg/dFCBGX6  `)
+      .addField('سيرفر الدعم الفني', `  https://discord.gg/Nwveuy  `)
   message.author.send({embed});
 
  }
@@ -547,7 +547,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`in 54 server -help`,"http://twitch.tv/y04zgamer")
+  client.user.setGame(`in 2 server -help`,"http://twitch.tv/y04zgamer")
    client.user.setStatus("dnd")
 });
 
