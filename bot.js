@@ -665,7 +665,7 @@ Client.on("message", message => {
     var prefix = "-";
  
             var args = message.content.substring(prefix.length).split(" ");
-            if (message.content.startsWith(prefix - "bc")) {
+            if (message.content.startsWith(prefix + "bc")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
  if (!args[1]) {
                                 let embed3 = new Discord.RichEmbed()
