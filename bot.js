@@ -188,7 +188,7 @@ client.on("message", message => {
  if (message.content === "-help") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2017 لــبوت')
+      .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')
       .setFooter('اوامر الادمنيه')
 	  .addField('-bc', `لخاصية البرودكستات`)
       .setFooter('======================================================')
@@ -271,7 +271,7 @@ client.on("message", message => {
  if (message.content === "-support") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2017 لــبوت')  
+      .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')  
       .addField('سيرفر الدعم الفني', `  https://discord.gg/Nwveuy  `)
   message.author.send({embed});
 
@@ -665,7 +665,7 @@ Client.on("message", message => {
     var prefix = "-";
  
             var args = message.content.substring(prefix.length).split(" ");
-            if (message.content.startsWith(prefix + "bc")) {
+            if (message.content.startsWith(prefix - "bc")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
  if (!args[1]) {
                                 let embed3 = new Discord.RichEmbed()
